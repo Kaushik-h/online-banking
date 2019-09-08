@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<SCRIPT type="text/javascript">
+	window.history.forward();
+	function noBack() { window.history.forward();}
+	function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</SCRIPT>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title></title>
+</head>
+<body bgcolor="#e0e0e0">
+	<center>
+<br><br><br><br><br><br><br>
+	<form method="post" action="userdet">
+	
+			<h3>User options</h3><br><br>
+			<input type="submit" value="View account details" name="vdet"><br><br>
+			<input type="submit" value="View balance" name="vbal"><br><br>
+			<input type="submit" value="View transactions" name="vtran"><br><br>
+	</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+		<SCRIPT type="text/javascript">
+	window.history.forward();
+	function noBack() { window.history.forward();}
+	function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</SCRIPT>
+</head>
+<body bgcolor="#e0e0e0">
+	<br><br>
+<h1>
+<center>Online Banking</center>	
+</h1><br>
+<br><br><br>
+<center>
+   
+      <h3>   Login</h3><br>
+	<form method="post" action="adminlogin">
+    <input type="text"  name="user3" placeholder=" Username" required><br><br>
+    <input type="password"  name="pass3" placeholder=" Password" required><br><br><br><br>
+    <input type="submit" value="User login" name="userl">
+    <input type="submit" value="Technician login" name="techl">
+    <input type="submit" value="Admin login" name="adminl">
+  </form>
+<br><br><br>
+</center>
+
+</body>
+</html>
